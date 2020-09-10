@@ -1,0 +1,30 @@
+{
+  "name": "ts-restapi",
+  "version": "1.0.0",
+  "description": "Simple RestAPI to learn more about Node and TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4RC0Sx/TS-RestAPI.git"
+  },
+  "author": "M4RC0Sx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4RC0Sx/TS-RestAPI/issues"
+  },
+  "homepage": "https://github.com/M4RC0Sx/TS-RestAPI#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.4",
+    "nodemon": "^2.0.4"
+  }
+}

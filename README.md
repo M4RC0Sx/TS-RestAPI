@@ -1,6 +1,7 @@
 # TS-RestAPI
 
 Simple Node + Mongo DB Rest API to learn more about TypeScript.
+It is based on a film data storage system.
 
 ## MongoDB installation setup on Docker:
 
